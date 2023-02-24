@@ -14,7 +14,7 @@ export const Container = styled.div`
     
     background-color: rgba(255, 133, 155, 0.05);
     
-    > button {
+    > a button {
       display: flex;
       justify-content: flex-start;
       margin: 6.4rem auto 5.9rem 14.4rem;

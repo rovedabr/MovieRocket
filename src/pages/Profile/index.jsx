@@ -3,20 +3,23 @@ import { Container, Avatar, Form } from "./styles"
 import { TextButton } from "../../components/TextButton"
 import { Button } from "../../components/Button"
 import { Input } from "../../components/Input"
+import { Link } from "react-router-dom"
 
 export default function Profile() {
   return (
     <Container>
       <header>
-        <TextButton 
-          icon={FiArrowLeft} 
-          title="Voltar"
-          link="#"
-        />
+
+        <Link to="/">
+          <TextButton 
+            icon={FiArrowLeft} 
+            title="Voltar"
+            link="#"
+          />        
+        </Link>
       </header>
 
       <Avatar>
-        <Link to="/">
           <img 
             src="http://www.github.com/rovedabr.png" 
             alt="Imagem do usuário" />
@@ -28,7 +31,6 @@ export default function Profile() {
             type="file"
             />
           </label>
-        </Link>
       </Avatar>
 
       <Form>
