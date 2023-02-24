@@ -4,6 +4,7 @@ import { Section } from "../../components/Section"
 import { Button } from "../../components/Button"
 import { Header } from "../../components/Header"
 import { Input } from "../../components/Input"
+import { Link } from "react-router-dom"
 
 export default function Home() {
   return (
@@ -11,9 +12,12 @@ export default function Home() {
       <Header/>        
       <Menu>
         <h1>Meus Filmes</h1>
-        <Button 
-          title="+ Adicionar Filme">          
-        </Button>
+
+        <Link to="/create">
+          <Button 
+            title="+ Adicionar Filme">          
+          </Button>
+        </Link>
       </Menu>
       <Content>
 

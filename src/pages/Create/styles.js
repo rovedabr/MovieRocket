@@ -20,7 +20,6 @@ export const Form = styled.form`
 
   padding: 0 2.4rem 1.6rem 0;
   overflow-y: scroll;
-  border: 1px red solid;
 
   ::-webkit-scrollbar-track {
   background-color: transparent;
@@ -38,7 +37,7 @@ export const Form = styled.form`
   border-radius: .8rem;
 }
 
-  > button {
+  > a button {
     margin: 0;
     align-items: flex-start;
     justify-content: flex-start;

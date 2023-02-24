@@ -42,12 +42,15 @@ export const Form = styled.form`
     margin: 4.8rem auto 4.8rem 16rem;
   }
 
-  input {
+  > div {
     width: 34rem;
     margin-bottom: .8rem;
     color: white;
-    background: transparent;
     border: 0;
+  }
+
+  > a {
+    margin-top: 2.4rem;
   }
 
   ::placeholder {

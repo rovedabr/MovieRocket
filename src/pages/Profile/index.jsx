@@ -8,7 +8,7 @@ export default function Profile() {
   return (
     <Container>
       <header>
-        <TextButton
+        <TextButton 
           icon={FiArrowLeft} 
           title="Voltar"
           link="#"
@@ -16,17 +16,19 @@ export default function Profile() {
       </header>
 
       <Avatar>
-        <img 
-          src="http://www.github.com/rovedabr.png" 
-          alt="Imagem do usuário" />
-          
-        <label htmlFor="avatar">
-          <FiCamera/>
-        <input
-          id="avatar"
-          type="file"
-          />
-        </label>
+        <Link to="/">
+          <img 
+            src="http://www.github.com/rovedabr.png" 
+            alt="Imagem do usuário" />
+            
+          <label htmlFor="avatar">
+            <FiCamera/>
+          <input
+            id="avatar"
+            type="file"
+            />
+          </label>
+        </Link>
       </Avatar>
 
       <Form>

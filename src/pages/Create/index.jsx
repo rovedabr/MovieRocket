@@ -6,6 +6,7 @@ import { Input } from "../../components/Input"
 import { TextArea } from "../../components/TextArea"
 import { Section } from "../../components/Section"
 import { Button } from "../../components/Button"
+import { Link } from "react-router-dom";
 
 
 export default function Create() {
@@ -14,11 +15,13 @@ export default function Create() {
       
       <Header/>
 
-      <Form>
-        <TextButton 
-          icon={FiArrowLeft}
-          title="Voltar"
-        />
+      <Form >
+        <Link to="/">
+          <TextButton 
+            icon={FiArrowLeft}
+            title="Voltar"
+          />
+        </Link>
 
         <h1>Novo Filme</h1>
         

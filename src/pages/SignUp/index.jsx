@@ -3,6 +3,7 @@ import { Input } from "../../components/Input";
 import { FiLock, FiMail, FiUser, FiArrowLeft } from "react-icons/fi"
 import { Button } from "../../components/Button";
 import { TextButton } from "../../components/TextButton";
+import { Link } from "react-router-dom";
 
 
 export default function SignIn() {
@@ -39,9 +40,11 @@ export default function SignIn() {
           title="Cadastrar"
         />
 
-        <TextButton 
-        icon={FiArrowLeft}
-        title="Voltar para o login"/>
+        <Link to="/">
+          <TextButton 
+          icon={FiArrowLeft}
+          title="Voltar para o login"/>
+        </Link>
       
       </Form>
 

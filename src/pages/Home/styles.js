@@ -42,8 +42,6 @@ export const Content = styled.div`
   margin: 4rem 13.2rem;
   padding: 3.2rem;
   background: transparent;
-  border: 1px red solid;
-
 
 ::-webkit-scrollbar-track {
   background-color: transparent;
@@ -73,24 +71,9 @@ export const Notes = styled.div`
   height: 22.3rem;
 
   border-radius: 1.6rem;
-  border: 1px solid blue;
-  
+ 
   margin-bottom: 2.4rem;
   background-color: rgba(255, 133, 155, 0.05);
 
-
-  /* .tag {
-    display: flex;
-    flex-direction: row;
-    z-index: -1;
-
-    border: 1px solid green;
-    background-color: green;
-
-    > input {
-      display: flex;
-      position: fixed;
-    }
-  } */
 `;
 

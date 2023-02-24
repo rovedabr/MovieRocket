@@ -2,6 +2,7 @@ import { Container, MovieData, Form, StarRate } from "./styles";
 import { Header } from "../../components/Header";
 import { TextButton } from "../../components/TextButton"
 import { FiArrowLeft } from "react-icons/fi"
+import { Link } from "react-router-dom";
 
 export default function Preview({...rest}) {
   return (
@@ -10,10 +11,12 @@ export default function Preview({...rest}) {
 
         <MovieData>                         
 
-          <TextButton 
-            icon={FiArrowLeft}
-            title="Voltar"
-          />
+          <Link to="/">
+            <TextButton 
+              icon={FiArrowLeft}
+              title="Voltar"
+            />
+          </Link>
             
               <h1>Interestellar</h1>
               <img src="https://www.github.com/rovedabr.png" alt="" />
