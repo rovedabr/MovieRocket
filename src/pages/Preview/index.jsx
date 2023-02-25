@@ -17,16 +17,18 @@ export default function Preview({...rest}) {
               title="Voltar"
             />
           </Link>
-            
+
+            <div className="movie">
               <h1>Interestellar</h1>
-              <img src="https://www.github.com/rovedabr.png" alt="" />
-              <span>Por Ivan Roveda</span>  
-              <span>23/05/22 às 08:00</span>
-            
-            <div>
-              {/* tags */}
+              <p>Classificação: 5</p>
             </div>
 
+            <div className="user">
+              <img src="https://www.github.com/rovedabr.png" alt="" />
+              <span>Por Ivan Roveda</span>  
+              <strong>23/05/22 às 08:00</strong>
+            </div>         
+            
         </MovieData>
 
         <Form>

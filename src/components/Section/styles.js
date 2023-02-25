@@ -22,8 +22,8 @@ export const Container = styled.section`
   }  
 
   > p {
-    font-size: 0.9rem;
-    line-height: 1.1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
     font-weight:400;
 
     text-align: justify;

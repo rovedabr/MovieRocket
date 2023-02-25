@@ -5,9 +5,6 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;  
 `;
 
 export const StarRate = styled.div`
@@ -18,27 +15,62 @@ export const MovieData = styled.div`
   width: 39rem;
   height: 20rem;
 
-  display: flex;
+  margin: 8.4rem auto 3rem 15.6rem;
+
+  a {
+    display: flex;
+    flex-direction: row;
+ 
+    justify-content: flex-start;
+
+    margin-bottom: 2.4rem;
+  
+  }
+
+  /* display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  overflow-y: scroll;
-  margin-left: 2rem;
+  overflow-y: scroll; */
+  
+  border: 1px red solid;
 
-  > img {
+  .movie {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    h1 {
+      font-size: 3.6rem;
+      line-height: 4.7rem;
+      font-weight:500;
+
+      color: #F4EDE8;
+    }
+
+  }
+  
+  .user {
+    display: flex;
+
+    img {
     width: 1.6rem;
     height: 1.6rem;
-
+  
     border-radius: 50%;
     margin-right: .8rem;
+    }
   }
+
+
+  > 
 `;
 
 export const Form = styled.div`
   width: 113rem;
   height: 34rem;
 
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   color: #F4EDE8;
   line-height: 2.1rem;
   font-weight: 400;
@@ -46,5 +78,5 @@ export const Form = styled.div`
   text-align: justify;
   overflow-y: auto;
 
-  margin: 2.7rem auto auto;
+  margin: 2.7rem auto auto 15.6rem;
 `;
