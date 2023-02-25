@@ -7,7 +7,7 @@ export function Section({ title, rate, children, tag, ...rest }) {
     <Container {...rest}>
       <h2>{title}</h2>
       <span>{rate}</span>
-      {children}
+      <p>{children}</p>
       <strong>{tag}</strong>      
     </Container>
   )

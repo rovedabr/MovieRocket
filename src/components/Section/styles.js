@@ -13,6 +13,7 @@ export const Container = styled.section`
   align-items: flex-start;
 
   > h2{
+    margin-top: -1rem;
     font-size: 2.4rem;
     line-height: 3.2rem;
     font-weight: 700;
@@ -20,22 +21,28 @@ export const Container = styled.section`
     margin-bottom: 1rem;
   }  
 
-  > p{
-    font-size: 1.6rem;
-    line-height: 1.8rem;
+  > p {
+    font-size: 0.9rem;
+    line-height: 1.1rem;
     font-weight:400;
 
     text-align: justify;
+    word-wrap: normal;
     text-overflow: clip;
-    margin: .5rem auto .5rem;
+  }
+  
+  > span{
+    margin-bottom: .5rem;
+    
   }
 
   > strong {
     background-color: #312E38;
     border-radius: .8rem;
     padding: 0.5rem 1.6rem;
-    margin-top: .5rem;
+    margin-top: .8rem;
   }
+  
 `;
 
 export const StarsRate = styled.div`
