@@ -3,6 +3,7 @@ import { Header } from "../../components/Header";
 import { TextButton } from "../../components/TextButton"
 import { FiArrowLeft } from "react-icons/fi"
 import { Link } from "react-router-dom";
+import stars from "../../assets/stars.png"
 
 export default function Preview({...rest}) {
   return (
@@ -27,7 +28,11 @@ export default function Preview({...rest}) {
               <img src="https://www.github.com/rovedabr.png" alt="" />
               <span>Por Ivan Roveda</span>  
               <strong>23/05/22 às 08:00</strong>
-            </div>         
+            </div> 
+
+            <div className="tag">
+              <p>Ficção</p>
+            </div>        
             
         </MovieData>
 
