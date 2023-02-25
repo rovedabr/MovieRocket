@@ -17,7 +17,7 @@ export const Container = styled.section`
     line-height: 3.2rem;
     font-weight: 700;
 
-    margin-bottom: 3.5rem;
+    margin-bottom: 1rem;
   }  
 
   > p{
@@ -27,6 +27,14 @@ export const Container = styled.section`
 
     text-align: justify;
     text-overflow: clip;
+    margin: .5rem auto .5rem;
+  }
+
+  > strong {
+    background-color: #312E38;
+    border-radius: .8rem;
+    padding: 0.5rem 1.6rem;
+    margin-top: .5rem;
   }
 `;
 

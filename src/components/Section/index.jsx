@@ -1,12 +1,14 @@
 import { Container, StarsRate } from "./styles";
 import { NoteItem } from "../NoteItem";
+import stars from "../../assets/stars.png"
 
-export function Section({ title, rate, children, ...rest }) {
+export function Section({ title, rate, children, tag, ...rest }) {
   return (
     <Container {...rest}>
       <h2>{title}</h2>
-      <p>{rate}</p>
-      {children}      
+      <span>{rate}</span>
+      {children}
+      <strong>{tag}</strong>      
     </Container>
   )
 }
