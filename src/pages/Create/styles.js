@@ -37,7 +37,7 @@ export const Form = styled.form`
   border-radius: .8rem;
 }
 
-  > a button {
+  > a {
     margin: 0;
     align-items: flex-start;
     justify-content: flex-start;

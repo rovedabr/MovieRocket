@@ -10,13 +10,12 @@ export default function Profile() {
     <Container>
       <header>
 
-        <Link to="/">
-          <TextButton 
+          <TextButton to="/"
             icon={FiArrowLeft} 
             title="Voltar"
             link="#"
           />        
-        </Link>
+
       </header>
 
       <Avatar>

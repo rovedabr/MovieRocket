@@ -16,12 +16,10 @@ export default function Create() {
       <Header/>
 
       <Form >
-        <Link to="/">
-          <TextButton 
+          <TextButton to="/"
             icon={FiArrowLeft}
             title="Voltar"
           />
-        </Link>
 
         <h1>Novo Filme</h1>
         

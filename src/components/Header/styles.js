@@ -5,11 +5,12 @@ export const Container = styled.header`
   width: 100%;
   height: 11.6rem;
 
-  background-color: ${({theme}) => theme.BACKGROUND_BODY};
+  background-color: #1C1B1E;
 
   display: flex;
   flex-direction: row;
   align-items: center;
+  /* position: fixed; */
   justify-content: space-between;
 
   border-bottom: 1px solid #3E3B47;

@@ -1,15 +1,16 @@
 import styled from "styled-components";
 
-
 export const Container = styled.div`
   width: 100%;
   height: 100vh;
 
   display: grid;
+  grid-template-rows: 13.6rem auto auto;
   grid-template-areas: 
     "header"
     "menu"
     "content";
+
 `;
 
 export const Menu = styled.div`

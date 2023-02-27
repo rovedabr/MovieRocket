@@ -17,6 +17,7 @@ export const MovieData = styled.div`
 
   margin: 8.4rem auto 3rem 15.6rem;
   display: flex;
+  grid: moviedata;
   flex-direction: column;
 
   overflow-y: auto;
@@ -97,6 +98,7 @@ export const MovieData = styled.div`
 export const Form = styled.div`
   width: 113rem;
   height: 34rem;
+  grid: form;
 
   font-size: 1.2rem;
   color: #F4EDE8;
